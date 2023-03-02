@@ -53,27 +53,33 @@ Review.create(
     rating: rand(1..5),
     comment: "what's new?",
     product_id: product.id
-  )Review.create(
+  )
+  Review.create(
     rating: rand(1..5),
     comment: "noma",
     product_id: product.id
-  )Review.create(
+  )
+  Review.create(
     rating: rand(1..5),
     comment: "kali",
     product_id: product1.id
-  )Review.create(
+  )
+  Review.create(
     rating: rand(1..5),
     comment: "kiatu mbaya",
     product_id: product1.id
-  )Review.create(
+  )
+  Review.create(
     rating: rand(1..5),
     comment: "siamini",
     product_id: product2.id
-  )Review.create(
+  )
+  Review.create(
     rating: rand(1..5),
     comment: "get this!",
     product_id: product3.id
-  )Review.create(
+  )
+  Review.create(
     rating: rand(1..5),
     comment: "worth it",
     product_id: product4.id
@@ -87,27 +93,33 @@ Review.create(
     rating: rand(1..5),
     comment: "nguriii",
     product_id: product6.id
-  )Review.create(
+  )
+  Review.create(
     rating: rand(1..5),
     comment: "woww",
     product_id: product7.id
-  )Review.create(
+  )
+  Review.create(
     rating: rand(1..5),
     comment: "the color!!",
     product_id: product8.id
-  )Review.create(
+  )
+  Review.create(
     rating: rand(1..5),
     comment: "100%",
     product_id: product9.id
-  )Review.create(
+  )
+  Review.create(
     rating: rand(1..5),
     comment: "comfy",
     product_id: product10.id
-  )Review.create(
+  )
+  Review.create(
     rating: rand(1..5),
     comment: "sawa sawaa",
     product_id: product10.id
-  )Review.create(
+  )
+  Review.create(
     rating: rand(1..5),
     comment: "what's new?",
     product_id: product11.id
