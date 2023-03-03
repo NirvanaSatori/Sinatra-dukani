@@ -7,14 +7,24 @@ class ApplicationController < Sinatra::Base
         product.to_json
     end
 
-    get 'reviews' do
+    get '/reviews' do
         review= Review.all
         review.to_json
     end
 
-    get 'users' do
+    get '/users' do
         user = User.all
         user.to_json
+    end
+
+    get '/product/:id' do
+        product = Product.find(params[:id])
+        product.to_json
+    end
+
+    get '/reviews/:id' do
+        review = Review.find(params[:id])
+        review.to_json
     end
 
 
