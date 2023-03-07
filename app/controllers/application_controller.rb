@@ -41,11 +41,11 @@ class ApplicationController < Sinatra::Base
 
     delete '/products/:id' do
         # find the product using the ID
-        review = Review.find(params[:id])
+        product = Product.find(params[:id])
         # delete the product
-        review.destroy
+        product.destroy
         # send a response with the deleted product as JSON
-        review.to_json
+        product.to_json
       end
 
 
