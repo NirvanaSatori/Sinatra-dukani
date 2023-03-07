@@ -27,5 +27,26 @@ class ApplicationController < Sinatra::Base
         review.to_json
     end
 
+    post '/product' do
+        new_product=Product.create(
+        name:params[:name],
+        price: params[:price],
+        amount: params[:amount],
+        title: params[:title],
+        author: params[:author],
+        image: params[:image])
+        new_product.to_json
+
+    end
+
+    delete '/products/:id' do
+        # find the product using the ID
+        review = Review.find(params[:id])
+        # delete the product
+        review.destroy
+        # send a response with the deleted product as JSON
+        review.to_json
+      end
+
 
 end  
