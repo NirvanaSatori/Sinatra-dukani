@@ -46,7 +46,7 @@ class ApplicationController < Sinatra::Base
         # delete the product
         product.destroy
         # send a response with the deleted product as JSON
-        review.to_json
+        product.to_json
       end
 
       patch '/products/:id' do
