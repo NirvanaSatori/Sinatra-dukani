@@ -13,11 +13,10 @@ For this project, you must:
     Build a separate React frontend application that interacts with the API to perform CRUD actions.
     Use good OO design patterns. You should have separate classes for each of your models, and create instance and class methods as necessary.
 
-For example, build a todo list application with a React frontend interface and a Sinatra backend API, where a user can:
+For example, build a gifts list application with a React frontend interface and a Sinatra backend API, where a user can:
 
-    Create a new todo
-    Read a list of all todos
-    Update an individual todo
-    Delete a todo
+    Create a new gift
+    Read a list of all gifts
+    Update an individual gifts
+    Delete a gift
 
-A Todo can be tagged with a Category, so that each todo belongs to a category and each category has many todos.
